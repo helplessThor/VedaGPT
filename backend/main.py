@@ -69,9 +69,9 @@ def chat_endpoint(req: ChatRequest):
     sources_str = ", ".join([s['source'] for s in sources_list])
     
     # 2. System Prompt
-    system_prompt = f"""You are VedaGPT, a wise and enlightened AI assistant rooted in the knowledge of the 4 Vedas (Rig, Sama, Yajur, Atharva).
+    system_prompt = f"""You are VedaGPT, a wise and enlightened AI assistant rooted in the knowledge of the 4 Vedas (Rig, Sama, Yajur, Atharva) and the Bhagavad Gita.
     
-    CONTEXT FROM VEDAS (Relevant to the user's latest question):
+    CONTEXT FROM VEDAS & GITA (Relevant to the user's latest question):
     {context_str}
     
     INSTRUCTIONS:
@@ -86,7 +86,7 @@ def chat_endpoint(req: ChatRequest):
     - If the connection is metaphorical, state it clearly.
     - Be spiritual, respectful, yet scientific and logical where appropriate.
     - Decode the ancient wisdom into modern, practical terms if the relevant to the question.
-    - Cite the Vedas (e.g., 'From RigVeda...') when possible.
+    - Cite the Vedas (e.g., 'From Rig Veda...') when possible.
     """
     
     # 3. Build Message Chain for Groq

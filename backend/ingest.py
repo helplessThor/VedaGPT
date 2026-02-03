@@ -18,6 +18,7 @@ DATA_SOURCES = {
     "YajurVeda": "https://archive.org/stream/yajurveda_202212/yajurveda_djvu.txt",
     "AtharvaVeda_Vol1": "https://archive.org/stream/atharvaved-vol-1/Atharvaved_Vol1_djvu.txt",
     "AtharvaVeda_Vol2": "https://archive.org/stream/atharvaved-vol-1/Atharvaved_Vol2_djvu.txt",
+    "BhagavadGita": "https://archive.org/stream/bhagavadgitaasitis_202508/BG_djvu.txt",
 }
 
 def setup_chroma():

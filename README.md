@@ -1,12 +1,13 @@
 # VedaGPT
 
-**VedaGPT** is an AI-powered spiritual assistant deeply rooted in the wisdom of the four Vedas (Rig, Sama, Yajur, and Atharva). It uses RAG (Retrieval-Augmented Generation) to provide answers strictly based on Vedic scripture, while bridging the gap between ancient wisdom and modern scientific concepts where applicable.
+**VedaGPT** is an AI-powered spiritual assistant deeply rooted in the wisdom of the four Vedas (Rig, Sama, Yajur, and Atharva) and the **Bhagavad Gita**. It uses RAG (Retrieval-Augmented Generation) to provide answers strictly based on Vedic scripture, while bridging the gap between ancient wisdom and modern scientific concepts where applicable.
 
 ## 🌟 Features
 
 *   **Dharmic UI**: A visually immersive "Cosmic" interface with deep indigo backgrounds (`Cosmic Void`), saffron (`Agni`) and gold (`Suvarna`) accents, and subtle breathing mandala animations.
 *   **Context Aware**: Remembers the flow of conversation (multi-turn dialogue support).
 *   **Scientific Parallels**: Automatically providing "Modern Scientific Parallels" for metaphysical questions (Cosmology, Atoms, Time), while keeping ritualistic answers strictly traditional.
+*   **Concise by Default**: Provides direct and concise answers to queries. Detailed explanations are provided only when explicitly requested (e.g., "explain in detail").
 *   **Source Citation**: Cites the specific verses or sources used to generate the answer.
 *   **Strict RAG Prioritization**: Falls back to general knowledge only when specific verses are not found, with an explicit disclaimer.
 
